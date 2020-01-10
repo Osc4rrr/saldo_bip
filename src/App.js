@@ -30,7 +30,7 @@ function App(){
 
     try {
 
-      const url = `http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=${busqueda.numeroTarjeta}`; 
+      const url = `https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=${busqueda.numeroTarjeta}`; 
 
       const resultado = await axios(url);
 
